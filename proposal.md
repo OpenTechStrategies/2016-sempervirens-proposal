@@ -69,7 +69,8 @@ proposed system and define the processes, and systems that need to be put in
 place in order to maintain the legal rights of different stakeholders. This
 research will be integrated into the requirements specification, and end-user
 documentation by CC. Some of the participants in this process which would need
-to be paid for their work on this. We estimate an additional $120k for this.
+to be paid for their work on this. For 60 hours of legal advice @ $200/hr, we
+estimate an additional $12k for this.
 
 A rough schedule for this development:
 
@@ -92,6 +93,6 @@ Cost: maybe $40K, combining some Changeset costs & some legal costs
 
 Phase II: [how long?]: Changeset works with webdev subcontractor, legal team,
 and the Juputer & NumPy teams to deliver the First Light milestone (per
-Nathaniel's deliverable outline reproduced below [??]).
+Nathaniel's deliverable outline reproduced below).
 
 Cost: ~$80K
