@@ -87,7 +87,7 @@ Deliverable: see "Phase I" milestone (per deliverables outline below)
 Cost: maybe $40K, combining some Changeset costs & some legal costs
 
 Phase II: [approximately four months]: Changeset works with webdev subcontractor, legal team,
-and the Juputer & NumPy teams
+and the Jupyter & NumPy teams
 
 Deliverable: see the "First Light" milestone (per deliverables outline below)
 
