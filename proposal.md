@@ -52,16 +52,16 @@ the development of end-user-focused documentation.
 Changeset Consulting is an appropriate choice for this task, because it has deep
 expertise in the management and consulting on many aspects of open-source
 software development. The principal, Sumana Harihareswara, an open-source
-software contributor herself, has the combination of technical expertise and
+software contributor herself, has the required combination of technical expertise and
 management experience, including experience with a range of different
 open-source communities, such as the Wikimedia Foundation and GNU Mailman.
 [Sumana: feel free to add/edit/delete/etc.]
 
 For this work, we estimate about 150 hours. Together with a small travel budget,
-that would amount to $20k.
+that would amount to $20k for Changeset Consulting.
 
 Developing a website that describes the project, and informs the community about
-the ongoing conversation, through a communications sub-contractor (web-developer, design, etc.) would require an additional $30k
+the ongoing conversation, through a communications sub-contractor (web-developer, design, etc.) would require an additional $30k.
 
 To advise on legal aspects of the project, we would need to contract the
 services of legal experts. They should research the legal issues related to the
@@ -74,8 +74,8 @@ estimate an additional $12k for this.
 
 A rough schedule for this development:
 
-Phase I: [approximately ten weeks] Changeset does research, moves the
-NumFOCUS formalization along, sets up convenings at PyCon and SciPy,
+## Phase I: [approximately ten weeks] Changeset does research, moves the
+NumFOCUS formalization along, sets up convenings at SciPy and other relevant meetings,
 builds the legal team and gets relevant stakeholders onto the
 sempervirens-discuss mailing list, and gets advice to answer the questions:
 * what countries' privacy laws apply here?
@@ -84,18 +84,18 @@ capacity for?
 
 Deliverable: see "Phase I" milestone (per deliverables outline below)
 
-Cost: maybe $40K, combining some Changeset costs & some legal costs
+Cost: maybe $14K, combining some Changeset costs & some legal costs
 
-Phase II: [approximately four months]: Changeset works with webdev subcontractor, legal team,
+## Phase II: [approximately four months]: Changeset works with webdev subcontractor, legal team,
 and the Jupyter & NumPy teams
 
 Deliverable: see the "First Light" milestone (per deliverables outline below)
 
-Cost: ~$80K
+Cost: ~$48K, including Changeset, legal, and developer costs
 
-Phase III: To be determined
+## Phase III: To be determined; future grant
 
-Deliverable: see the "Final" milestone(per deliverables outline below)
+Deliverable: see the "Final" milestone (per deliverables outline below)
 
 
 # Deliverables outline:
