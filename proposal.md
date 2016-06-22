@@ -74,7 +74,7 @@ estimate an additional $12k for this.
 
 A rough schedule for this development:
 
-Phase I: [How long?] Changeset does research, moves the
+Phase I: [approximately ten weeks] Changeset does research, moves the
 NumFOCUS formalization along, sets up convenings at PyCon and SciPy,
 builds the legal team and gets relevant stakeholders onto the
 sempervirens-discuss mailing list, and gets advice to answer the questions:
@@ -82,17 +82,69 @@ sempervirens-discuss mailing list, and gets advice to answer the questions:
 * what level of ongoing social and technical maintenance should we build
 capacity for?
 
-The set of deliverables would be:
-* NumFOCUS relationship formalized or clearly about to be formalized
-* legal team in place
-* nation-level and future project resourcing scope tightened
-* clear path forward for the consensus process & community approval
-* technical roadmap that NumFOCUS, Jupyter & NumPy team find feasible
+Deliverable: see "Phase I" milestone (per deliverables outline below)
 
 Cost: maybe $40K, combining some Changeset costs & some legal costs
 
-Phase II: [how long?]: Changeset works with webdev subcontractor, legal team,
-and the Juputer & NumPy teams to deliver the First Light milestone (per
-Nathaniel's deliverable outline reproduced below).
+Phase II: [approximately four months]: Changeset works with webdev subcontractor, legal team,
+and the Juputer & NumPy teams
+
+Deliverable: see the "First Light" milestone (per deliverables outline below)
 
 Cost: ~$80K
+
+Phase III: To be determined
+
+Deliverable: see the "Final" milestone(per deliverables outline below)
+
+
+# Deliverables outline:
+
+## Milestone: Phase I
+- NumFOCUS relationship formalized or clearly about to be formalized
+- Legal team in place
+- Nation-level and future project resourcing scope tightened
+- Clear path forward for the consensus process & community approval
+- Technical roadmap that NumFOCUS, Jupyter & NumPy team find feasible
+
+## Milestone: [First Light](https://en.wikipedia.org/wiki/First_light_%28astronomy%29) 
+
+- Public distribution
+  - Data aggregation pipeline
+  - Develop tools for presenting public data (e.g. website where you can enter a query and see pretty graphs)
+- Sustainability
+  - Develop long-term funding strategy
+  - Formalize operations
+
+## Milestone: Final 
+
+- Technical
+  - Python client library
+    - Code
+    - Tests
+    - Usage docs for developers
+  - "How to write a client library for your language"
+    - Protocol specification
+    - Implementation tips
+  - Data ingestion server
+    - Code
+    - Tests
+    - Deployment glue (CI, docker, etc.)
+    - Operations glue (monitoring, logging, etc.)
+    - Backup strategy
+- Process
+  - High-level principles (inspiration: https://www.mozilla.org/en-US/privacy/principles/)
+  - More detailed decisions on what kind of data we do and don't collect (e.g. IP addresses, opt-outs)
+  - Formal "legal code" privacy policy
+  - Decisions on what aggregate data we make public
+  - Decisions on what conditions we require before allowing people access to more-raw data
+  - Policy for onboarding new projects doing data collection (e.g. getting confirmation that they've read the rules, avoiding namespace clashes between Python and R projects, ...)
+  - Policy for handling cases where we do end up with sensitive data
+  - Formation of stewardship committee to manage above
+  - Formalization of relationship with NumFOCUS
+- Communication
+  - Website describing the project
+  - Clear end-user-focused document about what we do and don't collect
+  - Language for requesting consent (linking to ^^ for more details)
+  - Clear developer-focused document about what rules they have to follow when collecting data
+  - Clear data-consumer-focused document about what they're allowed to do with the public aggregate data (possibly "anything they want" but either way we should say), documenting the process of getting access to more-raw data
